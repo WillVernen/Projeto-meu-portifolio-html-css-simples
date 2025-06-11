@@ -1,0 +1,145 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #3D405B;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  
+  header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Seções */
+  section {
+    margin: 40px 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #3D405B;
+    margin-bottom: 20px;
+  }
+  
+  /* Habilidades */
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habilidades li {
+    background-color: #E07A5F;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  /* Projetos */
+  .projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .projeto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projeto h3 {
+    margin-top: 0;
+    color: #3D405B;
+  }
+  
+  /* Contato */
+  .contato-info {
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #3D405B;
+    text-decoration: none;
+  }
+  
+  .redes-sociais a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-contato input, .form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-contato button {
+    background-color: #3D405B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-contato button:hover {
+    background-color: #E07A5F;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #3D405B;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+  }
+  
+  /* Media Queries para Responsividade */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    .projetos-grid {
+      grid-template-columns: 1fr;
+    }
+  }
