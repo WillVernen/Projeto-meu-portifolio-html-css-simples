@@ -1,8 +1,2 @@
-# Ignorar arquivos com informações sensíveis
-*.txt
-
-# Ignorar pastas de arquivos temporários e logs
-temp/
-
 # Ignorar arquivos de compactação
 *.rar
